@@ -88,6 +88,9 @@ create database if not exists universita;
   (189274,"ICD","Francesco","Dicursi","1999-09-25","DCRFNC99P25E882Y",NULL);
 
   insert into Studente values
+  (189977,"ICD","Anna Maria","Greco","2001-07-29","GRCAMM01P29E882O",NULL);
+
+  insert into Studente values
   (189175,"ICD","Cosimo","Donati","1996-08-13","DNTCSM96P13E882J",NULL);
 
   insert into Studente values
@@ -130,3 +133,16 @@ create database if not exists universita;
     (987586,"DMB","Giuseppina","Settanni","1985-10-11","STNGSP85P10E882K",NULL);
     insert into Docente values
     (686486,"DIB","Antonio","Piccinno","1986-03-11","PCCANT86P11E882R",NULL);
+
+    insert into Esame values
+      (189274,"PROG01",686486,"2019-08-13",31,NULL);
+      insert into Esame values
+        (189274,"AMAT01",987586,"2019-06-15",31,NULL);
+        insert into Esame values
+          (189674,"PROG01",686486,"2019-08-13",18,NULL);
+          insert into Esame values
+            (189175,"PROG01",686486,"2019-08-13",21,NULL);
+            /*insert into Esame values
+              (189274,"LABINF",987586,"2019-05-15",18,NULL);*/
+              insert into Esame values
+                (189674,"PROG01",686486,"2019-08-13",28,NULL);
